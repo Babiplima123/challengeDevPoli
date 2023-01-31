@@ -12,6 +12,9 @@ class SelectDateViewController: UIViewController {
 
     @IBOutlet weak var datePicker: UIDatePicker!
     @IBOutlet weak var salvar: UIBarButtonItem!
+    @IBOutlet weak var backBarButton: UIBarButtonItem!
+
+    
 
     var servico: String?
 

@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="a9O-Xi-pU6">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="a9O-Xi-pU6">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -19,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yVb-x9-kt7">
-                                <rect key="frame" x="22" y="123" width="331" height="76.666666666666686"/>
+                                <rect key="frame" x="22" y="120" width="331" height="76.666666666666686"/>
                                 <string key="text">Bem-Vindo ao 
 DevServices</string>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
@@ -27,13 +26,13 @@ DevServices</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="30 de novembro" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="evq-Pi-xQH">
-                                <rect key="frame" x="22" y="203.66666666666666" width="97" height="15.666666666666657"/>
+                                <rect key="frame" x="22" y="200.66666666666666" width="97" height="15.666666666666657"/>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="13"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lJa-cw-7Vs">
-                                <rect key="frame" x="32" y="251.33333333333334" width="311" height="64.333333333333343"/>
+                                <rect key="frame" x="32" y="248.33333333333334" width="311" height="64.333333333333343"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sobre nós" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1hY-N1-1Zc">
                                         <rect key="frame" x="12" y="11.99999999999997" width="287" height="19.333333333333329"/>
@@ -65,14 +64,14 @@ DevServices</string>
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1yJ-UY-C4o">
-                                <rect key="frame" x="55" y="347.66666666666669" width="265" height="1"/>
+                                <rect key="frame" x="55" y="344.66666666666669" width="265" height="1"/>
                                 <color key="backgroundColor" systemColor="systemIndigoColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="1" id="2qc-SX-pKv"/>
                                 </constraints>
                             </view>
                             <stackView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" axis="vertical" spacing="22" translatesAutoresizingMaskIntoConstraints="NO" id="4ce-Th-eeJ">
-                                <rect key="frame" x="22" y="380.66666666666663" width="331" height="342.66666666666663"/>
+                                <rect key="frame" x="22" y="377.66666666666663" width="331" height="342.66666666666663"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TCf-Gh-2Yp">
                                         <rect key="frame" x="0.0" y="0.0" width="331" height="265.66666666666669"/>
@@ -301,11 +300,11 @@ DevServices</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" style="inline" translatesAutoresizingMaskIntoConstraints="NO" id="CiD-6M-sC8">
-                                <rect key="frame" x="16" y="211.99999999999997" width="343" height="363.33333333333326"/>
+                                <rect key="frame" x="16" y="208.99999999999997" width="343" height="358.33333333333326"/>
                                 <locale key="locale" localeIdentifier="pt_BR"/>
                             </datePicker>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Selecione a data e hora para reservar" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xmi-tm-XBQ">
-                                <rect key="frame" x="16" y="113" width="343" height="67"/>
+                                <rect key="frame" x="16" y="110" width="343" height="67"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -331,7 +330,7 @@ DevServices</string>
                     </navigationItem>
                     <connections>
                         <outlet property="datePicker" destination="CiD-6M-sC8" id="H4g-R4-YOt"/>
-                        <outlet property="salvar" destination="LeN-Q2-61q" id="tyk-K9-so3"/>
+                        <outlet property="salvar" destination="LeN-Q2-61q" id="DtU-gS-M4I"/>
                         <outlet property="salvarBtn" destination="LeN-Q2-61q" id="K5h-Bh-pAR"/>
                     </connections>
                 </viewController>
@@ -345,7 +344,7 @@ DevServices</string>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="a9O-Xi-pU6" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="drm-IL-SkC">
-                        <rect key="frame" x="0.0" y="47" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -363,7 +362,7 @@ DevServices</string>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Vbv-6c-knH" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="3eR-ag-QiQ">
-                        <rect key="frame" x="0.0" y="47" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -388,7 +387,7 @@ DevServices</string>
             <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="tertiaryLabelColor">
-            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.29803921568627451" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
